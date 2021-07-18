@@ -8,3 +8,7 @@ print(s.swapcase())
 print(len(s))
 print(s.lower())
 print(s.replace('wOrld',"every"))
+a = "Ha xuyen"
+b = 38
+info = a +" " + str(b)
+print(info)
