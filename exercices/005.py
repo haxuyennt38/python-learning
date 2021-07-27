@@ -1,4 +1,4 @@
-#Number to user
-numb = int(input())
-print('Salut, ca farte?')
-
+numberOfuser = int(input())
+f = open('005.txt', 'r')
+info = f.read ()
+print(info)
