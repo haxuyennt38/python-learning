@@ -1,8 +1,7 @@
-yearOfbirthday = list(range(2021))
-year = int(input())
-count = 0
-for index in range(len(yearOfbirthday)) :
-    print(f'Nam thu : {index}')
-    count += 1
-print(count)
+yearOfbirthday = list(range(2022))
+yeartoday = int(input())
+year = yearOfbirthday
+for year in range(len(yearOfbirthday)) :
+    print(f'{year}')
+    year += 1
     
