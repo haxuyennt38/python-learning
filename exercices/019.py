@@ -1,8 +1,8 @@
-a = input(int()) #la premiere longueur 
+a = int(input()) #la premiere longueur 
 
-b = input(int()) #la deuxieme longueur
+b = int(input()) #la deuxieme longueur
 
-c = input(int()) #la troisieme longueur
+c = int(input()) #la troisieme longueur
 
 if a + b > c and a + c > b and b + c > a :
     print('it is the triangle')
