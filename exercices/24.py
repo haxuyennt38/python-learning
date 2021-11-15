@@ -1,4 +1,4 @@
-##Use the circle 'for'
+##Use the loop 'for'
 
 # input a and b
 a = int(input())
