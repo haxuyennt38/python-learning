@@ -16,3 +16,5 @@ elif 15 <= note <= 18 :
 else :
     result = "Excelent"
 print(result)
+
+print('Bonjour, monde!')
