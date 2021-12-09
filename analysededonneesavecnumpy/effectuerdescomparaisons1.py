@@ -2,11 +2,16 @@ import numpy as np
 
 vector = np.array([5, 10, 15, 20])
 
-print(vector == '10')
+equal_to_ten = (vector == 10)
+
+print(equal_to_ten)
+
 
 matrix = np.array([[10, 25, 30], [45, 50, 55], [60, 65, 70]])
 
-print(matrix == '25')
+equal_to_25 = (matrix[:, 1]) == 25
+
+print(equal_to_25)
 
 
 ##Lire le dataset world_alcohol.csv dans la variable world_alcohol
